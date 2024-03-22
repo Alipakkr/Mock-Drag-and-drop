@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop Image Upload</title>
+    <link rel="stylesheet" href="app.css" />
+   
+</head>
+<body>
+   <div class="card">
+    <div class="top">
+        <img src="imgmock.jpeg" alt="" style="height: 20px; width: 40px;">
+       <p>Drag & drop image uploading</p>
+       <button type="button">Upload</button>
+    </div>
+    <div class="drag-area">
+    	<span class="visible">
+	      Drag & drop image here or
+	      <span class="select" role="button">Browse</span>
+	</span>
+	<span class="on-drop">Drop images here</span>
+    	<input name="file" type="file" class="file" multiple  />
+    </div>
+
+    <!-- IMAGE PREVIEW CONTAINER -->
+    <div class="container"></div>
+</div>
+    <script src="app.js"></script>
+
+</body>
+</html>
