@@ -4,7 +4,7 @@ let files = [],
 	input = document.querySelector('.drag-area input'),
 	button = document.querySelector('.card button');
 select = document.querySelector('.drag-area .select');
-container = document.querySelector('.container');
+ = document.querySelector('.container');
 
 /** CLICK LISTENER */
 select.addEventListener('click', () => input.click());
